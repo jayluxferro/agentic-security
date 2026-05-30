@@ -34,3 +34,4 @@ experiments/results/baseline_safety_prompt.json
 # Old simulation artifacts
 sim/results/
 artifacts/
+agentic-security-tifs-*.zip
