@@ -4,9 +4,9 @@
 *.out
 *.fdb_latexmk
 *.fls
-*.bbl
 *.blg
 *.synctex.gz
+# Note: main.bbl is COMMITTED for arXiv/camera-ready — it's needed for citation resolution
 
 # PDF output
 main.pdf
