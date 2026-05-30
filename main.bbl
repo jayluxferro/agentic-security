@@ -177,8 +177,9 @@ M.~Alshiekh, R.~Bloem, R.~Ehlers, B.~Konighofer, S.~Niekum, and U.~Topcu,
   AAAI Conference on Artificial Intelligence}, 2018.
 
 \bibitem{clawguard2026}
-W.~Jiang \emph{et~al.}, ``{ClawGuard}: a runtime security framework for
-  tool-augmented {LLM} agents,'' \emph{arXiv preprint arXiv:2604.11790}, 2026.
+W.~Zhao, Z.~Li, P.~Zhang, and J.~Sun, ``{ClawGuard}: a runtime security
+  framework for tool-augmented {LLM} agents against indirect prompt
+  injection,'' \emph{arXiv preprint arXiv:2604.11790}, 2026.
 
 \bibitem{agentspec2026}
 H.~Wang, C.~M. Poskitt, and J.~Sun, ``{AgentSpec}: customizable runtime
