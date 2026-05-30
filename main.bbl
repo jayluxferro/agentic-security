@@ -21,11 +21,32 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{vaswani2017attention}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez,
+  L.~Kaiser, and I.~Polosukhin, ``Attention is all you need,'' in
+  \emph{Advances in Neural Information Processing Systems}, 2017.
+
 \bibitem{brown2020language}
 T.~B. Brown, B.~Mann, N.~Ryder, M.~Subbiah, J.~Kaplan, P.~Dhariwal,
   A.~Neelakantan, P.~Shyam, G.~Sastry, A.~Askell \emph{et~al.}, ``Language
   models are few-shot learners,'' \emph{Advances in Neural Information
   Processing Systems}, 2020.
+
+\bibitem{kaplan2020scaling}
+J.~Kaplan, S.~McCandlish, T.~Henighan, T.~B. Brown, B.~Chess, R.~Child,
+  S.~Gray, A.~Radford, J.~Wu, and D.~Amodei, ``Scaling laws for neural language
+  models,'' \emph{arXiv preprint arXiv:2001.08361}, 2020.
+
+\bibitem{hoffmann2022training}
+J.~Hoffmann, S.~Borgeaud, A.~Mensch, E.~Buchatskaya, T.~Cai, E.~Rutherford,
+  D.~de~Las~Casas, L.~A. Hendricks, J.~Welbl, A.~Clark \emph{et~al.},
+  ``Training compute-optimal large language models,'' \emph{arXiv preprint
+  arXiv:2203.15556}, 2022.
+
+\bibitem{wei2022emergent}
+J.~Wei, Y.~Tay, R.~Bommasani, C.~Raffel, B.~Zoph, S.~Borgeaud, D.~Yogatama,
+  M.~Bosma, D.~Zhou, D.~Metzler \emph{et~al.}, ``Emergent abilities of large
+  language models,'' \emph{Transactions on Machine Learning Research}, 2022.
 
 \bibitem{openai2023gpt4}
 OpenAI, ``{GPT-4} technical report,'' \emph{arXiv preprint arXiv:2303.08774},
@@ -36,6 +57,10 @@ DeepSeek-AI, ``{DeepSeek-V2}: a strong, economical, and efficient
   mixture-of-experts language model,'' \emph{arXiv preprint arXiv:2405.04434},
   2024.
 
+\bibitem{geminiteam2023}
+G.~Team, ``Gemini: a family of highly capable multimodal models,'' \emph{arXiv
+  preprint arXiv:2312.11805}, 2023.
+
 \bibitem{deng2023pentestgpt}
 G.~Deng, Y.~Liu, V.~Mayoral-Vilches, P.~Liu, Y.~Li, Y.~Xu, T.~Zhang, Y.~Liu
   \emph{et~al.}, ``{PentestGPT}: an {LLM}-empowered automatic penetration
@@ -45,6 +70,12 @@ G.~Deng, Y.~Liu, V.~Mayoral-Vilches, P.~Liu, Y.~Li, Y.~Xu, T.~Zhang, Y.~Liu
 R.~Fang, R.~Bindu, A.~Gupta, and D.~Kang, ``Large language models as
   cybersecurity agents: a comprehensive survey,'' \emph{arXiv preprint
   arXiv:2405.01638}, 2024.
+
+\bibitem{bommasani2021opportunities}
+R.~Bommasani, D.~A. Hudson, E.~Adeli, R.~Altman, S.~Arora, S.~von Arx, M.~S.
+  Bernstein, J.~Bohg, A.~Bosselut, E.~Brunskill \emph{et~al.}, ``On the
+  opportunities and risks of foundation models,'' \emph{arXiv preprint
+  arXiv:2108.07258}, 2021.
 
 \bibitem{weidinger2022taxonomy}
 L.~Weidinger, J.~Uesato, M.~Rauh, C.~Griffin, P.-S. Huang, J.~Mellor,
@@ -58,6 +89,11 @@ D.~Ganguli, L.~Lovitt, J.~Kernion, A.~Askell, Y.~Bai, S.~Kadavath, B.~Mann,
   models to reduce harms: methods, scaling behaviors, and lessons learned,''
   \emph{arXiv preprint arXiv:2209.07858}, 2022.
 
+\bibitem{amodei2016concrete}
+D.~Amodei, C.~Olah, J.~Steinhardt, P.~Christiano, J.~Schulman, and D.~Mane,
+  ``Concrete problems in {AI} safety,'' \emph{arXiv preprint arXiv:1606.06565},
+  2016.
+
 \bibitem{bai2022constitutional}
 Y.~Bai, S.~Kadavath, S.~Kundu, A.~Askell, J.~Kernion, A.~Jones, A.~Chen,
   A.~Goldie, A.~Mirhoseini, C.~McKinnon \emph{et~al.}, ``Constitutional {AI}:
@@ -65,14 +101,26 @@ Y.~Bai, S.~Kadavath, S.~Kundu, A.~Askell, J.~Kernion, A.~Jones, A.~Chen,
   2022.
 
 \bibitem{jiang2024wildteaming}
-L.~Jiang \emph{et~al.}, ``{WildTeaming}: large-scale adversarial safety
-  evaluation of language models,'' \emph{arXiv preprint arXiv:2406.01234},
-  2024.
+L.~Jiang, K.~Rao, S.~Han, A.~Ettinger, F.~Brahman, S.~Kumar, N.~Mireshghallah,
+  X.~Lu, M.~Sap, Y.~Choi, and N.~Dziri, ``{WildTeaming} at scale: from
+  in-the-wild jailbreaks to (adversarially) safer language models,'' in
+  \emph{Advances in Neural Information Processing Systems (NeurIPS)}, 2024.
 
 \bibitem{han2024asb}
 Y.~Han, R.~Wang, H.~Zhang, X.~Li \emph{et~al.}, ``{ASB}: a comprehensive
   framework for attacks and defenses of {LLM}-based agent security,'' in
   \emph{International Conference on Learning Representations}, 2025.
+
+\bibitem{wei2022chain}
+J.~Wei, X.~Wang, D.~Schuurmans, M.~Bosma, B.~Ichter, F.~Xia, E.~H. Chi, Q.~V.
+  Le, and D.~Zhou, ``Chain-of-thought prompting elicits reasoning in large
+  language models,'' \emph{Advances in Neural Information Processing Systems},
+  2022.
+
+\bibitem{kojima2022zero}
+T.~Kojima, S.~S. Gu, M.~Reid, Y.~Matsuo, and Y.~Iwasawa, ``Large language
+  models are zero-shot reasoners,'' \emph{Advances in Neural Information
+  Processing Systems}, 2022.
 
 \bibitem{arditi2024refusal}
 A.~Arditi, O.~Obeso, A.~Syed, D.~Paleka, N.~Panickssery, W.~Gurnee, and
@@ -90,15 +138,38 @@ N.~Rimsky, N.~Gabrieli, J.~Schulz, M.~Tong, E.~Hubinger, and A.~M. Turner,
   \emph{Proceedings of the 62nd Annual Meeting of the Association for
   Computational Linguistics}, 2024.
 
+\bibitem{bender2021dangers}
+E.~M. Bender, T.~Gebru, A.~McMillan-Major, and S.~Shmitchell, ``On the dangers
+  of stochastic parrots: can language models be too big?'' \emph{Proceedings of
+  the 2021 ACM Conference on Fairness, Accountability, and Transparency}, 2021.
+
+\bibitem{li2024wmdp}
+N.~Li, A.~Pan, A.~Gopal, S.~Yue, D.~Berrios, A.~Gatti, J.~D. Li, A.-K.
+  Dziadowicz, S.~Goel, L.~Phan \emph{et~al.}, ``The {WMDP} benchmark: measuring
+  and reducing malicious use with unlearning,'' \emph{arXiv preprint
+  arXiv:2403.03218}, 2024.
+
+\bibitem{mazeika2024harmbench}
+M.~Mazeika, L.~Phan, X.~Yin, A.~Zou, Z.~Wang, N.~Mu, E.~Sakhaee, N.~Li,
+  S.~Basart, B.~Li \emph{et~al.}, ``{HarmBench}: a standardized evaluation
+  framework for automated red teaming and robust refusal,'' \emph{arXiv
+  preprint arXiv:2402.04249}, 2024.
+
+\bibitem{schaeffer2024emergent}
+R.~Schaeffer, B.~Miranda, and S.~Koyejo, ``Are emergent abilities of large
+  language models a mirage?'' \emph{Advances in Neural Information Processing
+  Systems}, 2024.
+
 \bibitem{agentSafetyBench2024}
 Z.~Zhang, S.~Cui, Y.~Lu, J.~Zhou, J.~Yang, H.~Wang, and M.~Sun,
   ``{Agent-SafetyBench}: evaluating the safety of {LLM} agents,'' \emph{arXiv
   preprint arXiv:2412.14470}, 2024.
 
 \bibitem{yuan2024rjudge}
-T.~Yuan, Z.~He, L.~Dong, Y.~Wang, R.~Zhao, T.~Xia, L.~Xu, B.~Zhou, Y.~Li
-  \emph{et~al.}, ``{R-Judge}: benchmarking safety risk awareness for {LLM}
-  agents,'' \emph{arXiv preprint arXiv:2401.12345}, 2024.
+T.~Yuan, Z.~He, L.~Dong, Y.~Wang, R.~Zhao, T.~Xia, L.~Xu, B.~Zhou, F.~Li,
+  Z.~Zhang, R.~Wang, and G.~Liu, ``{R-Judge}: benchmarking safety risk
+  awareness for {LLM} agents,'' in \emph{Findings of the Association for
+  Computational Linguistics: EMNLP}, 2024.
 
 \bibitem{alshiekh2018safe}
 M.~Alshiekh, R.~Bloem, R.~Ehlers, B.~Konighofer, S.~Niekum, and U.~Topcu,
@@ -110,9 +181,9 @@ W.~Jiang \emph{et~al.}, ``{ClawGuard}: a runtime security framework for
   tool-augmented {LLM} agents,'' \emph{arXiv preprint arXiv:2604.11790}, 2026.
 
 \bibitem{agentspec2026}
-H.~Li \emph{et~al.}, ``{AgentSpec}: a lightweight specification and enforcement
-  framework for {LLM} agents,'' in \emph{International Conference on Software
-  Engineering}, 2026.
+H.~Wang, C.~M. Poskitt, and J.~Sun, ``{AgentSpec}: customizable runtime
+  enforcement for safe and reliable {LLM} agents,'' in \emph{IEEE/ACM
+  International Conference on Software Engineering (ICSE)}, 2026.
 
 \bibitem{guardagent2024}
 Z.~Xiang, L.~Zheng, Y.~Li, J.~Hong, Q.~Li, H.~Xie, J.~Zhang, Z.~Xiong, C.~Xie,
@@ -121,8 +192,8 @@ Z.~Xiang, L.~Zheng, Y.~Li, J.~Hong, Q.~Li, H.~Xie, J.~Zhang, Z.~Xiong, C.~Xie,
   arXiv:2406.09187}, 2024.
 
 \bibitem{agentActionGuard2025}
-A.~Author, ``{Agent Action Guard}: a classification system for multi-agent
-  tool-call safety,'' \emph{arXiv preprint arXiv:2510.01415}, 2025.
+P.~Vadlapati, ``{Agent Action Guard}: safe {AI} agents through action
+  classifier,'' \emph{Preprints.org}, 2025.
 
 \bibitem{shieldagent2025}
 Z.~Wang \emph{et~al.}, ``{ShieldAgent}: shielding {LLM}-based agents via
@@ -144,6 +215,31 @@ H.~Inan, K.~Upasani, J.~Chi, R.~Rungta, K.~Iyer, Y.~Mao, M.~Tontchev, Q.~Hu,
 K.~Lounis, ``Agent guard: an open-source proxy for transparent {LLM} tool-call
   inspection, blocking, and redaction,''
   \url{https://lounis89.github.io/agent-guard/}, 2025.
+
+\bibitem{liang2022helm}
+P.~Liang, R.~Bommasani, T.~Lee, D.~Tsipras, D.~Soylu, M.~Yasunaga, Y.~Zhang,
+  D.~Narayanan, Y.~Wu, A.~Kumar \emph{et~al.}, ``Holistic evaluation of
+  language models,'' \emph{Annals of the New York Academy of Sciences}, 2023.
+
+\bibitem{liu2024agentbench}
+X.~Liu, H.~Yu, H.~Zhang, Y.~Xu, X.~Lei, H.~Lai, Y.~Gu, H.~Ding, K.~Men, K.~Yang
+  \emph{et~al.}, ``{AgentBench}: evaluating {LLMs} as agents,'' \emph{arXiv
+  preprint arXiv:2308.03688}, 2023.
+
+\bibitem{jimenez2023swebench}
+C.~E. Jimenez, J.~Yang, A.~Wettig, S.~Yao, K.~Pei, O.~Press, and K.~Narasimhan,
+  ``{SWE-bench}: can language models resolve real-world {GitHub} issues?''
+  \emph{arXiv preprint arXiv:2310.06770}, 2023.
+
+\bibitem{yang2024sweagent}
+J.~Yang, C.~E. Jimenez, A.~Wettig, K.~Lieret, S.~Yao, K.~Narasimhan, and
+  O.~Press, ``{SWE-agent}: agent-computer interfaces enable automated software
+  engineering,'' \emph{arXiv preprint arXiv:2405.15793}, 2024.
+
+\bibitem{gu2024taubench}
+S.~Yao, N.~Shinn, P.~Razavi, and K.~Narang, ``$\tau$-bench: a benchmark for
+  tool-agent-user interaction in real-world domains,'' \emph{arXiv preprint
+  arXiv:2406.12045}, 2024.
 
 \bibitem{bhatt2023cyberseceval}
 M.~Bhatt, S.~Chennabasappa \emph{et~al.}, ``{CyberSecEval}: a benchmark for
@@ -171,19 +267,67 @@ M.~Shao, S.~Jancheska, M.~Udeshi, B.~Dolan-Gavitt, H.~Wang, G.~Kimberly,
   2024.
 
 \bibitem{tihanyi2024cybermetric}
-N.~Tihanyi, T.~Bisztray, R.~Jain, M.~A. Ferrag, L.~C. Cordeiro \emph{et~al.},
-  ``{CyberMetric}: a benchmark dataset for evaluating large language models in
-  cybersecurity,'' \emph{arXiv preprint arXiv:2312.08894}, 2024.
+N.~Tihanyi, M.~A. Ferrag, R.~Jain, T.~Bisztray, and M.~Debbah, ``{CyberMetric}:
+  a benchmark dataset based on retrieval-augmented generation for evaluating
+  {LLMs} in cybersecurity knowledge,'' in \emph{IEEE International Conference
+  on Cyber Security and Resilience (CSR)}, 2024, pp. 296--302.
 
 \bibitem{alam2024ctibench}
-M.~T. Alam, D.~Bhusal, and N.~Rastogi, ``{CTIBench}: a benchmark for evaluating
-  large language models in cyber threat intelligence,'' \emph{arXiv preprint
-  arXiv:2406.07599}, 2024.
+M.~T. Alam, D.~Bhusal, L.~Nguyen, and N.~Rastogi, ``{CTIBench}: a benchmark for
+  evaluating large language models in cyber threat intelligence,'' in
+  \emph{Advances in Neural Information Processing Systems (NeurIPS)}, 2024.
 
 \bibitem{abramovich2024enigma}
 T.~Abramovich, M.~Udeshi, M.~Shao, K.~Lieret, H.~Xi, K.~Milner, S.~Jancheska,
   J.~Yang, C.~E. Jimenez, F.~Khonsari \emph{et~al.}, ``{EnIGMA}: enhanced
   interactive generative model agent for {CTF} challenges,'' in
   \emph{International Conference on Learning Representations}, 2025.
+
+\bibitem{pearce2022copilot}
+H.~Pearce, B.~Ahmad, B.~Tan, B.~Dolan-Gavitt, and R.~Karri, ``Asleep at the
+  keyboard? assessing the security of {GitHub} {Copilot}'s code
+  contributions,'' \emph{IEEE Symposium on Security and Privacy}, 2022.
+
+\bibitem{perry2023insecure}
+N.~Perry, M.~Srivastava, D.~Kumar, and D.~Boneh, ``Do users write more insecure
+  code with {AI} assistants?'' \emph{Proceedings of the 2023 ACM SIGSAC
+  Conference on Computer and Communications Security}, 2023.
+
+\bibitem{nist2023airmf}
+{National Institute of Standards and Technology}, ``Artificial intelligence
+  risk management framework ({AI RMF 1.0}),'' NIST, Tech. Rep., 2023.
+
+\bibitem{nist2024gaiprofile}
+------, ``{Generative AI Profile} ({NIST AI 600-1}),'' NIST, Tech. Rep., 2024.
+
+\bibitem{nist2020zerotrust}
+S.~Rose, O.~Borchert, S.~Mitchell, and S.~Connelly, ``Zero trust architecture
+  ({NIST SP 800-207}),'' National Institute of Standards and Technology, Tech.
+  Rep., 2020.
+
+\bibitem{owasp2025llm}
+{OWASP Foundation}, ``{OWASP Top 10 for LLM Applications},''
+  \url{https://genai.owasp.org}, 2025.
+
+\bibitem{mitreatlas}
+{MITRE Corporation}, ``{MITRE ATLAS}: Adversarial threat landscape for
+  artificial-intelligence systems,'' \url{https://atlas.mitre.org}, 2024.
+
+\bibitem{raji2021ai}
+I.~D. Raji, E.~M. Bender, A.~Paullada, E.~Denton, and A.~Hanna, ``{AI} and the
+  everything in the whole wide world benchmark,'' \emph{Advances in Neural
+  Information Processing Systems (Datasets and Benchmarks Track)}, 2021.
+
+\bibitem{happe2023pwned}
+A.~Happe and J.~Cito, ``Getting pwn'd by {AI}: penetration testing with large
+  language models,'' \emph{Proceedings of the 31st ACM Joint European Software
+  Engineering Conference and Symposium on the Foundations of Software
+  Engineering}, 2023.
+
+\bibitem{ganguli2022predictability}
+D.~Ganguli, D.~Hernandez, L.~Lovitt, A.~Askell, Y.~Bai, A.~Chen, T.~Conerly,
+  N.~Dassarma, D.~Drain, N.~Elhage \emph{et~al.}, ``Predictability and surprise
+  in large language models,'' \emph{Proceedings of the 2022 ACM Conference on
+  Fairness, Accountability, and Transparency}, 2022.
 
 \end{thebibliography}
