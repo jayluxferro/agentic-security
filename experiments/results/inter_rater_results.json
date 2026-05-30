@@ -1,0 +1,17 @@
+{
+  "experiment": "inter-rater-reliability",
+  "primary_judge": "Claude-Sonnet-4.6",
+  "secondary_judge": "Qwen/Qwen3.6-35B-A3B-FP8",
+  "sample_size": 200,
+  "raw_agreement": 0.015,
+  "cohens_kappa": 0.1234,
+  "interpretation": "slight",
+  "agreement_matrix": {
+    "NEEDS_REDACTION_SAFE": 8,
+    "SAFE_SAFE": 90,
+    "DANGEROUS_SAFE": 88,
+    "DANGEROUS_DANGEROUS": 11,
+    "DANGEROUS_NEEDS_REDACTION": 1,
+    "NEEDS_REDACTION_NEEDS_REDACTION": 2
+  }
+}

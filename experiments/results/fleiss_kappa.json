@@ -1,0 +1,18 @@
+{
+  "third_judge": "deepseek-ai/DeepSeek-V4-Flash",
+  "sample_size": 200,
+  "fleiss_kappa": 0.0417,
+  "P_bar": 0.5567,
+  "P_e": 0.5374,
+  "per_category": {
+    "DANGEROUS": {
+      "n": 182
+    },
+    "NEEDS_REDACTION": {
+      "n": 18
+    },
+    "SAFE": {
+      "n": 400
+    }
+  }
+}

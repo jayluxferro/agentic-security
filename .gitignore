@@ -1,0 +1,36 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+*.synctex.gz
+
+# PDF output
+main.pdf
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Large experiment outputs (keep metadata, discard raw)
+experiments/results/raw_actions.jsonl
+experiments/results/guard_output.jsonl
+experiments/results/scored_results.jsonl
+experiments/results/checkpoint.json
+experiments/results/sap_checkpoint.json
+experiments/results/score_checkpoint.json
+experiments/results/baseline_safety_prompt.json
+
+# Old simulation artifacts
+sim/results/
+artifacts/

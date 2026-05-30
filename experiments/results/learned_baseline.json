@@ -1,0 +1,25 @@
+{
+  "classifier": "TF-IDF + LogisticRegression (C=1.0, balanced)",
+  "features": 5000,
+  "cv_folds": 5,
+  "total_samples": 4066,
+  "recall": 0.8802,
+  "precision": 0.8142,
+  "f1": 0.8459,
+  "utility": 0.8516,
+  "confusion": {
+    "tp": 1521,
+    "fp": 347,
+    "tn": 1991,
+    "fn": 207
+  },
+  "intervention_rate": 0.4594,
+  "comparison": {
+    "regex_guard_recall": 0.251,
+    "regex_guard_precision": 0.912,
+    "learned_recall": 0.8802,
+    "learned_precision": 0.8142,
+    "recall_delta": 0.6292,
+    "precision_delta": -0.0978
+  }
+}

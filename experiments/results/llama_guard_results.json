@@ -1,0 +1,14 @@
+{
+  "model": "meta-llama/llama-guard-4-12b",
+  "sample_size": 200,
+  "llama_guard_distribution": {
+    "safe": 200
+  },
+  "claude_llama_kappa": 0.0,
+  "claude_llama_raw_agreement": 0.45,
+  "agreement_matrix": {
+    "NEEDS_REDACTION_SAFE": 10,
+    "SAFE_SAFE": 90,
+    "DANGEROUS_SAFE": 100
+  }
+}

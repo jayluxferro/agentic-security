@@ -1,0 +1,339 @@
+{
+  "experiment": "rule-level-analysis",
+  "total_actions": 4066,
+  "total_rules": 11,
+  "rules_that_fired": 12,
+  "rules_never_fired": [],
+  "total_rule_firings": 480,
+  "pct_actions_triggering_rule": 11.81,
+  "rules": [
+    {
+      "rule": "web-attack",
+      "hits": 172,
+      "true_positives": 160,
+      "false_positives": 12,
+      "precision": 0.9302,
+      "precision_ci95": [
+        0.882,
+        0.9596
+      ],
+      "pct_of_all_actions": 4.23,
+      "pct_of_fired_rules": 35.8,
+      "categories": {
+        "web_exploitation": {
+          "hits": 167,
+          "tp": 155
+        },
+        "persistence": {
+          "hits": 4,
+          "tp": 4
+        },
+        "data_exfiltration": {
+          "hits": 1,
+          "tp": 1
+        }
+      }
+    },
+    {
+      "rule": "reverse-shell",
+      "hits": 88,
+      "true_positives": 83,
+      "false_positives": 5,
+      "precision": 0.9432,
+      "precision_ci95": [
+        0.8738,
+        0.9755
+      ],
+      "pct_of_all_actions": 2.16,
+      "pct_of_fired_rules": 18.3,
+      "categories": {
+        "privilege_escalation": {
+          "hits": 47,
+          "tp": 45
+        },
+        "web_exploitation": {
+          "hits": 25,
+          "tp": 25
+        },
+        "persistence": {
+          "hits": 10,
+          "tp": 10
+        },
+        "reconnaissance": {
+          "hits": 5,
+          "tp": 2
+        },
+        "network_ops": {
+          "hits": 1,
+          "tp": 1
+        }
+      }
+    },
+    {
+      "rule": "credential-dumping",
+      "hits": 45,
+      "true_positives": 39,
+      "false_positives": 6,
+      "precision": 0.8667,
+      "precision_ci95": [
+        0.7382,
+        0.9374
+      ],
+      "pct_of_all_actions": 1.11,
+      "pct_of_fired_rules": 9.4,
+      "categories": {
+        "credential_attacks": {
+          "hits": 38,
+          "tp": 37
+        },
+        "reconnaissance": {
+          "hits": 4,
+          "tp": 0
+        },
+        "web_exploitation": {
+          "hits": 2,
+          "tp": 2
+        },
+        "privilege_escalation": {
+          "hits": 1,
+          "tp": 0
+        }
+      }
+    },
+    {
+      "rule": "persistence",
+      "hits": 44,
+      "true_positives": 39,
+      "false_positives": 5,
+      "precision": 0.8864,
+      "precision_ci95": [
+        0.7602,
+        0.9505
+      ],
+      "pct_of_all_actions": 1.08,
+      "pct_of_fired_rules": 9.2,
+      "categories": {
+        "persistence": {
+          "hits": 40,
+          "tp": 36
+        },
+        "data_exfiltration": {
+          "hits": 2,
+          "tp": 2
+        },
+        "privilege_escalation": {
+          "hits": 1,
+          "tp": 0
+        },
+        "post_exploitation": {
+          "hits": 1,
+          "tp": 1
+        }
+      }
+    },
+    {
+      "rule": "sensitive-file-read",
+      "hits": 42,
+      "true_positives": 32,
+      "false_positives": 10,
+      "precision": 0.7619,
+      "precision_ci95": [
+        0.6147,
+        0.8652
+      ],
+      "pct_of_all_actions": 1.03,
+      "pct_of_fired_rules": 8.8,
+      "categories": {
+        "data_exfiltration": {
+          "hits": 21,
+          "tp": 20
+        },
+        "web_exploitation": {
+          "hits": 11,
+          "tp": 4
+        },
+        "post_exploitation": {
+          "hits": 6,
+          "tp": 5
+        },
+        "privilege_escalation": {
+          "hits": 2,
+          "tp": 2
+        },
+        "reconnaissance": {
+          "hits": 1,
+          "tp": 0
+        },
+        "network_ops": {
+          "hits": 1,
+          "tp": 1
+        }
+      }
+    },
+    {
+      "rule": "lateral-movement",
+      "hits": 25,
+      "true_positives": 20,
+      "false_positives": 5,
+      "precision": 0.8,
+      "precision_ci95": [
+        0.6087,
+        0.9114
+      ],
+      "pct_of_all_actions": 0.61,
+      "pct_of_fired_rules": 5.2,
+      "categories": {
+        "post_exploitation": {
+          "hits": 17,
+          "tp": 17
+        },
+        "network_ops": {
+          "hits": 7,
+          "tp": 2
+        },
+        "defense_evasion": {
+          "hits": 1,
+          "tp": 1
+        }
+      }
+    },
+    {
+      "rule": "defense-evasion",
+      "hits": 20,
+      "true_positives": 19,
+      "false_positives": 1,
+      "precision": 0.95,
+      "precision_ci95": [
+        0.7639,
+        0.9911
+      ],
+      "pct_of_all_actions": 0.49,
+      "pct_of_fired_rules": 4.2,
+      "categories": {
+        "defense_evasion": {
+          "hits": 17,
+          "tp": 17
+        },
+        "persistence": {
+          "hits": 1,
+          "tp": 1
+        },
+        "reconnaissance": {
+          "hits": 1,
+          "tp": 0
+        },
+        "network_ops": {
+          "hits": 1,
+          "tp": 1
+        }
+      }
+    },
+    {
+      "rule": "exfiltration-network",
+      "hits": 19,
+      "true_positives": 18,
+      "false_positives": 1,
+      "precision": 0.9474,
+      "precision_ci95": [
+        0.7536,
+        0.9906
+      ],
+      "pct_of_all_actions": 0.47,
+      "pct_of_fired_rules": 4.0,
+      "categories": {
+        "data_exfiltration": {
+          "hits": 14,
+          "tp": 14
+        },
+        "web_exploitation": {
+          "hits": 4,
+          "tp": 4
+        },
+        "network_ops": {
+          "hits": 1,
+          "tp": 0
+        }
+      }
+    },
+    {
+      "rule": "privilege-escalation",
+      "hits": 12,
+      "true_positives": 11,
+      "false_positives": 1,
+      "precision": 0.9167,
+      "precision_ci95": [
+        0.6461,
+        0.9851
+      ],
+      "pct_of_all_actions": 0.3,
+      "pct_of_fired_rules": 2.5,
+      "categories": {
+        "privilege_escalation": {
+          "hits": 11,
+          "tp": 11
+        },
+        "persistence": {
+          "hits": 1,
+          "tp": 0
+        }
+      }
+    },
+    {
+      "rule": "destructive-operations",
+      "hits": 11,
+      "true_positives": 11,
+      "false_positives": 0,
+      "precision": 1.0,
+      "precision_ci95": [
+        0.7412,
+        1.0
+      ],
+      "pct_of_all_actions": 0.27,
+      "pct_of_fired_rules": 2.3,
+      "categories": {
+        "network_ops": {
+          "hits": 11,
+          "tp": 11
+        }
+      }
+    },
+    {
+      "rule": "sensitive-data-exposure",
+      "hits": 1,
+      "true_positives": 1,
+      "false_positives": 0,
+      "precision": 1.0,
+      "precision_ci95": [
+        0.2065,
+        1.0
+      ],
+      "pct_of_all_actions": 0.02,
+      "pct_of_fired_rules": 0.2,
+      "categories": {
+        "data_exfiltration": {
+          "hits": 1,
+          "tp": 1
+        }
+      }
+    },
+    {
+      "rule": "file-destruction",
+      "hits": 1,
+      "true_positives": 1,
+      "false_positives": 0,
+      "precision": 1.0,
+      "precision_ci95": [
+        0.2065,
+        1.0
+      ],
+      "pct_of_all_actions": 0.02,
+      "pct_of_fired_rules": 0.2,
+      "categories": {
+        "reconnaissance": {
+          "hits": 1,
+          "tp": 1
+        }
+      }
+    }
+  ]
+}

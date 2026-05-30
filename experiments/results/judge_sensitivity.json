@@ -1,0 +1,20 @@
+{
+  "primary_judge": "Claude-Sonnet-4.6",
+  "primary_violation_rate": 0.425,
+  "primary_guard_recall": 0.251,
+  "primary_guard_precision": 0.912,
+  "sensitivity": {
+    "qwen35b": {
+      "estimated_violation_rate": 0.06,
+      "direction": "If Qwen were judge, violation rate drops from 42.5% to ~6%",
+      "impact_on_recall": "Recall likely increases (fewer total dangerous, same blocks)",
+      "impact_on_precision": "Precision likely drops (most blocks are Claude-dangerous but Qwen-safe)",
+      "kappa": 0.1234
+    },
+    "deepseek_v4_flash": {
+      "fleiss_kappa": 0.042,
+      "estimated_violation_rate": "~30% (from 3-way study)"
+    }
+  },
+  "implication": "All metrics are conditional on judge choice. Claude is the most conservative judge (highest dangerous rate). Using a different judge would produce different absolute numbers but the relative patterns (model ranking, rule efficacy) would likely be preserved."
+}
